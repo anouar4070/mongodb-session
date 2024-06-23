@@ -5,7 +5,8 @@ const port = 3000
 import mongoose from 'mongoose'
 import { dbConnection } from './database/dbConnection.js'
 import { userModel } from './models/user.model.js'
-import userRouter from './modules/user/user.router.js'
+import userRouter from './src/modules/user/user.router.js'
+
 
 
 dbConnection()
